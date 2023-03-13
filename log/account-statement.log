@@ -1,0 +1,552 @@
+******************* START PROGRAM ******************
+2023-02-22 10:16:45 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-22 10:16:45 INFO  Database.configure:18 - configure DB [OK]
+2023-02-22 10:16:45 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 10:16:45 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 10:16:48 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-22 10:16:48 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-22 10:16:48 INFO  Main.main:22 - test
+2023-02-22 10:16:56 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-22 10:16:56 INFO  PDFEngine.engine:61 - PERIOD: 012023
+2023-02-22 10:16:56 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:16:56 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:16:56 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:16:56 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:16:57 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:16:57 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:16:57 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:16:57 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:16:57 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:16:57 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:16:58 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:16:58 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:16:58 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:16:58 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:16:59 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:16:59 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:04 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:04 INFO  PDFEngine.getData:214 - BDG000631 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:04 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:05 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:05 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:05 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:05 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:05 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:05 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:05 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:05 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:06 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:06 INFO  PDFEngine.getData:214 - TSK000995 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:06 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:06 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:06 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:06 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:06 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:06 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:06 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:06 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:06 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:07 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:07 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:07 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:07 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:07 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:07 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:07 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:07 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:07 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:07 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:07 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:07 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:08 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:08 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:08 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:08 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:08 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:08 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:08 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:08 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:08 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:08 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:08 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:08 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:08 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:08 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:09 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:09 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:09 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:09 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:09 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:09 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:09 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:09 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:09 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:09 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:09 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:09 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:10 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:10 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:12 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:12 INFO  PDFEngine.getData:214 - TSK001136 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:12 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:13 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:13 INFO  PDFEngine.getData:214 - SMD000109 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:13 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:13 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:13 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:14 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:14 INFO  PDFEngine.getData:214 - SMD000125 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:14 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:15 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:15 INFO  PDFEngine.getData:214 - TSK001154 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:15 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:15 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:15 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:15 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:15 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:15 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:15 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:16 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:16 INFO  PDFEngine.getData:214 - SMD000332 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:16 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:17 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:17 INFO  PDFEngine.getData:214 - SMD000355 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:17 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:18 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:18 INFO  PDFEngine.getData:214 - SMD000359 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:18 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:19 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:19 INFO  PDFEngine.getData:214 - SMD000362 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:19 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:19 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:19 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:21 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:21 INFO  PDFEngine.getData:214 - SMD000373 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:21 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:22 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:22 INFO  PDFEngine.getData:214 - SMD000384 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:22 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:22 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:23 INFO  PDFEngine.getData:214 - SMD000416 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:23 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:24 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:24 INFO  PDFEngine.getData:214 - SMD000425 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:24 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:24 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:24 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:17:24 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:17:25 INFO  PDFEngine.getData:214 - SMD000434 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:17:25 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:17:25 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:17:25 INFO  PDFEngine.call:158 - dari call: no data
+******************* START PROGRAM ******************
+2023-02-22 10:19:15 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-22 10:19:15 INFO  Database.configure:18 - configure DB [OK]
+2023-02-22 10:19:15 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 10:19:15 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 10:19:17 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-22 10:19:17 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-22 10:19:17 INFO  Main.main:22 - test
+2023-02-22 10:19:19 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-22 10:19:19 INFO  PDFEngine.engine:61 - PERIOD: 012023
+******************* START PROGRAM ******************
+2023-02-22 10:19:24 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-22 10:19:24 INFO  Database.configure:18 - configure DB [OK]
+2023-02-22 10:19:24 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 10:19:24 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 10:19:27 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-22 10:19:27 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-22 10:19:27 INFO  Main.main:22 - test
+2023-02-22 10:19:29 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-22 10:19:29 INFO  PDFEngine.engine:61 - PERIOD: 012023
+2023-02-22 10:19:32 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:32 INFO  PDFEngine.getData:214 - BDG000024 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:32 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:33 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:33 INFO  PDFEngine.getData:214 - BDG000233 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:33 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:33 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:19:33 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:19:34 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:34 INFO  PDFEngine.getData:214 - BDG000354 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:34 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:35 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:19:35 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:19:35 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:35 INFO  PDFEngine.getData:214 - BDG000563 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:35 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:36 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:36 INFO  PDFEngine.getData:214 - BDG000567 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:36 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:37 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:37 INFO  PDFEngine.getData:214 - BDG000615 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:37 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:38 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:38 INFO  PDFEngine.getData:214 - BDG000631 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:38 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:39 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:39 INFO  PDFEngine.getData:214 - BDG000646 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:39 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:40 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:40 INFO  PDFEngine.getData:214 - TSK000984 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:40 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:40 INFO  PDFEngine.generateFile:297 - Byte data not found at: bgR.png.
+2023-02-22 10:19:40 INFO  PDFEngine.getData:214 - TSK000987 : 2023-02-22 : N : Byte data not found at: bgR.png. :  :  : 012023
+2023-02-22 10:19:41 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:19:41 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:19:41 INFO  PDFEngine.call:158 - dari call: no data
+******************* START PROGRAM ******************
+2023-02-22 10:20:57 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-22 10:20:57 INFO  Database.configure:18 - configure DB [OK]
+2023-02-22 10:20:57 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 10:20:57 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 10:20:59 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-22 10:20:59 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-22 10:20:59 INFO  Main.main:22 - test
+2023-02-22 10:21:01 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-22 10:21:01 INFO  PDFEngine.engine:61 - PERIOD: 012023
+2023-02-22 10:21:06 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:06 INFO  PDFEngine.generateFile:291 - BDG000024 012023
+2023-02-22 10:21:06 INFO  PDFEngine.getData:195 - BDG000024 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ALEX SPORT RACING.pdf :  : 012023
+2023-02-22 10:21:06 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:07 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:07 INFO  PDFEngine.generateFile:291 - BDG000233 012023
+2023-02-22 10:21:08 INFO  PDFEngine.getData:195 - BDG000233 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LAUTAN JAYA MTR.pdf :  : 012023
+2023-02-22 10:21:08 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:08 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:21:08 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:21:09 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:09 INFO  PDFEngine.generateFile:291 - BDG000354 012023
+2023-02-22 10:21:09 INFO  PDFEngine.getData:195 - BDG000354 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SANGGAR MTR.pdf :  : 012023
+2023-02-22 10:21:09 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:09 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:21:09 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:21:10 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:10 INFO  PDFEngine.generateFile:291 - BDG000563 012023
+2023-02-22 10:21:10 INFO  PDFEngine.getData:195 - BDG000563 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SUGIH JAYA MTR.pdf :  : 012023
+2023-02-22 10:21:10 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:11 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:11 INFO  PDFEngine.generateFile:291 - BDG000567 012023
+2023-02-22 10:21:11 INFO  PDFEngine.getData:195 - BDG000567 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CICADAS MOTOR.pdf :  : 012023
+2023-02-22 10:21:12 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:12 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:12 INFO  PDFEngine.generateFile:291 - BDG000615 012023
+2023-02-22 10:21:12 INFO  PDFEngine.getData:195 - BDG000615 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/RI - RIZ MTR.pdf :  : 012023
+2023-02-22 10:21:13 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:13 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:13 INFO  PDFEngine.generateFile:291 - BDG000631 012023
+2023-02-22 10:21:14 INFO  PDFEngine.getData:195 - BDG000631 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/TASIK MOTOR.pdf :  : 012023
+2023-02-22 10:21:14 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:14 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:14 INFO  PDFEngine.generateFile:291 - BDG000646 012023
+2023-02-22 10:21:15 INFO  PDFEngine.getData:195 - BDG000646 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LION RACING MTR.pdf :  : 012023
+2023-02-22 10:21:15 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:15 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:15 INFO  PDFEngine.generateFile:291 - TSK000984 012023
+2023-02-22 10:21:16 INFO  PDFEngine.getData:195 - TSK000984 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ESR MOTOR.pdf :  : 012023
+2023-02-22 10:21:16 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:16 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:16 INFO  PDFEngine.generateFile:291 - TSK000987 012023
+2023-02-22 10:21:17 INFO  PDFEngine.getData:195 - TSK000987 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SUKMA MOTOR.pdf :  : 012023
+2023-02-22 10:21:17 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:17 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:21:17 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:21:18 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:18 INFO  PDFEngine.generateFile:291 - TSK000995 012023
+2023-02-22 10:21:18 INFO  PDFEngine.getData:195 - TSK000995 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CV. SA.HIDAYAH.pdf :  : 012023
+2023-02-22 10:21:18 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:19 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:21:19 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:21:19 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:21:19 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:21:19 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:21:19 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:21:19 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:21:19 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:21:19 INFO  PDFEngine.getData:230 - no data
+2023-02-22 10:21:19 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 10:21:19 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:19 INFO  PDFEngine.generateFile:291 - TSK001017 012023
+2023-02-22 10:21:20 INFO  PDFEngine.getData:195 - TSK001017 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CV.TRI BINTANG SINAR INDO-TYR.pdf :  : 012023
+2023-02-22 10:21:20 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 10:21:20 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 10:21:20 INFO  PDFEngine.generateFile:291 - TSK001040 012023
+******************* START PROGRAM ******************
+2023-02-22 11:11:05 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-22 11:11:05 INFO  Database.configure:18 - configure DB [OK]
+2023-02-22 11:11:05 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 11:11:05 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 11:11:07 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-22 11:11:07 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-22 11:11:07 INFO  Main.main:22 - test
+2023-02-22 11:11:15 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-22 11:11:15 INFO  PDFEngine.engine:61 - PERIOD: 012023
+2023-02-22 11:11:16 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:16 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:16 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:16 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:16 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:16 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:16 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:16 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:16 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:16 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:17 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:17 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:17 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:17 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:17 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:17 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:18 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:18 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:18 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:18 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:18 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:18 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:18 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:18 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:19 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:19 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:20 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:20 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:20 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:20 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:20 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:20 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:21 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:21 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:21 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:21 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:21 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:21 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:21 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:21 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:26 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:11:26 INFO  PDFEngine.generateFile:291 - TSK001040 012023
+2023-02-22 11:11:26 INFO  PDFEngine.getData:195 - TSK001040 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CITEGUH MOTOR-TYR.pdf :  : 012023
+2023-02-22 11:11:26 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:11:26 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:26 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:27 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:11:27 INFO  PDFEngine.generateFile:291 - TSK001094 012023
+2023-02-22 11:11:27 INFO  PDFEngine.getData:195 - TSK001094 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SENTOSA MOTOR.pdf :  : 012023
+2023-02-22 11:11:27 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:11:27 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:27 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:28 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:11:28 INFO  PDFEngine.generateFile:291 - TSK001099 012023
+2023-02-22 11:11:29 INFO  PDFEngine.getData:195 - TSK001099 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/BERKAH JAYA VARIASI-TYR.pdf :  : 012023
+2023-02-22 11:11:29 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:11:29 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:11:29 INFO  PDFEngine.generateFile:291 - TSK001107 012023
+2023-02-22 11:11:30 INFO  PDFEngine.getData:195 - TSK001107 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SINAR JAYA BATERY-TYR.pdf :  : 012023
+2023-02-22 11:11:30 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:11:30 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:11:30 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:11:30 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:11:30 INFO  PDFEngine.generateFile:291 - TSK001113 012023
+2023-02-22 11:11:31 INFO  PDFEngine.getData:195 - TSK001113 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/TRIJAYA MOTOR.pdf :  : 012023
+2023-02-22 11:11:31 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:11:31 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:11:31 INFO  PDFEngine.generateFile:291 - TSK001120 012023
+******************* START PROGRAM ******************
+2023-02-22 11:11:54 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-22 11:11:54 INFO  Database.configure:18 - configure DB [OK]
+2023-02-22 11:11:54 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 11:11:54 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 11:11:56 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-22 11:11:56 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-22 11:11:56 INFO  Main.main:22 - test
+2023-02-22 11:11:58 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-22 11:11:58 INFO  PDFEngine.engine:61 - PERIOD: 012023
+2023-02-22 11:12:02 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:02 INFO  PDFEngine.generateFile:291 - BDG000024 012023
+2023-02-22 11:12:02 INFO  PDFEngine.getData:195 - BDG000024 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ALEX SPORT RACING.pdf :  : 012023
+2023-02-22 11:12:02 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:03 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:03 INFO  PDFEngine.generateFile:291 - BDG000233 012023
+2023-02-22 11:12:03 INFO  PDFEngine.getData:195 - BDG000233 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LAUTAN JAYA MTR.pdf :  : 012023
+2023-02-22 11:12:03 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:04 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:04 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:04 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:04 INFO  PDFEngine.generateFile:291 - BDG000354 012023
+2023-02-22 11:12:05 INFO  PDFEngine.getData:195 - BDG000354 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SANGGAR MTR.pdf :  : 012023
+2023-02-22 11:12:05 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:05 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:05 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:06 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:06 INFO  PDFEngine.generateFile:291 - BDG000563 012023
+2023-02-22 11:12:06 INFO  PDFEngine.getData:195 - BDG000563 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SUGIH JAYA MTR.pdf :  : 012023
+2023-02-22 11:12:06 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:07 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:07 INFO  PDFEngine.generateFile:291 - BDG000567 012023
+2023-02-22 11:12:07 INFO  PDFEngine.getData:195 - BDG000567 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CICADAS MOTOR.pdf :  : 012023
+2023-02-22 11:12:07 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:08 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:08 INFO  PDFEngine.generateFile:291 - BDG000615 012023
+2023-02-22 11:12:08 INFO  PDFEngine.getData:195 - BDG000615 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/RI - RIZ MTR.pdf :  : 012023
+2023-02-22 11:12:08 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:09 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:09 INFO  PDFEngine.generateFile:291 - BDG000631 012023
+2023-02-22 11:12:09 INFO  PDFEngine.getData:195 - BDG000631 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/TASIK MOTOR.pdf :  : 012023
+2023-02-22 11:12:09 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:10 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:10 INFO  PDFEngine.generateFile:291 - BDG000646 012023
+2023-02-22 11:12:10 INFO  PDFEngine.getData:195 - BDG000646 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LION RACING MTR.pdf :  : 012023
+2023-02-22 11:12:10 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:11 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:11 INFO  PDFEngine.generateFile:291 - TSK000984 012023
+2023-02-22 11:12:11 INFO  PDFEngine.getData:195 - TSK000984 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ESR MOTOR.pdf :  : 012023
+2023-02-22 11:12:12 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:12 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:12 INFO  PDFEngine.generateFile:291 - TSK000987 012023
+2023-02-22 11:12:12 INFO  PDFEngine.getData:195 - TSK000987 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SUKMA MOTOR.pdf :  : 012023
+2023-02-22 11:12:13 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:13 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:13 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:13 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:13 INFO  PDFEngine.generateFile:291 - TSK000995 012023
+2023-02-22 11:12:14 INFO  PDFEngine.getData:195 - TSK000995 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CV. SA.HIDAYAH.pdf :  : 012023
+2023-02-22 11:12:14 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:14 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:14 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:14 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:14 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:14 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:14 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:14 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:14 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:14 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:14 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:15 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:15 INFO  PDFEngine.generateFile:291 - TSK001017 012023
+2023-02-22 11:12:15 INFO  PDFEngine.getData:195 - TSK001017 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CV.TRI BINTANG SINAR INDO-TYR.pdf :  : 012023
+2023-02-22 11:12:15 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:16 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:16 INFO  PDFEngine.generateFile:291 - TSK001040 012023
+2023-02-22 11:12:16 INFO  PDFEngine.getData:195 - TSK001040 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CITEGUH MOTOR-TYR.pdf :  : 012023
+2023-02-22 11:12:16 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:16 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:16 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:17 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:17 INFO  PDFEngine.generateFile:291 - TSK001094 012023
+2023-02-22 11:12:17 INFO  PDFEngine.getData:195 - TSK001094 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SENTOSA MOTOR.pdf :  : 012023
+2023-02-22 11:12:18 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:18 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:18 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:18 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:18 INFO  PDFEngine.generateFile:291 - TSK001099 012023
+2023-02-22 11:12:19 INFO  PDFEngine.getData:195 - TSK001099 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/BERKAH JAYA VARIASI-TYR.pdf :  : 012023
+2023-02-22 11:12:19 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:19 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:19 INFO  PDFEngine.generateFile:291 - TSK001107 012023
+2023-02-22 11:12:20 INFO  PDFEngine.getData:195 - TSK001107 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SINAR JAYA BATERY-TYR.pdf :  : 012023
+2023-02-22 11:12:20 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:12:20 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:12:20 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:12:20 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:12:20 INFO  PDFEngine.generateFile:291 - TSK001113 012023
+2023-02-22 11:12:21 INFO  PDFEngine.getData:195 - TSK001113 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/TRIJAYA MOTOR.pdf :  : 012023
+2023-02-22 11:12:21 INFO  PDFEngine.call:158 - dari call: kelar
+******************* START PROGRAM ******************
+2023-02-22 11:15:19 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-22 11:15:19 INFO  Database.configure:18 - configure DB [OK]
+2023-02-22 11:15:19 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 11:15:19 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-22 11:15:21 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-22 11:15:21 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-22 11:15:21 INFO  Main.main:22 - test
+2023-02-22 11:15:31 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-22 11:15:31 INFO  PDFEngine.engine:61 - PERIOD: 012023
+2023-02-22 11:15:36 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:36 INFO  PDFEngine.generateFile:291 - BDG000024 012023
+2023-02-22 11:15:36 INFO  PDFEngine.getData:195 - BDG000024 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ALEX SPORT RACING.pdf :  : 012023
+2023-02-22 11:15:36 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:15:37 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:37 INFO  PDFEngine.generateFile:291 - BDG000233 012023
+2023-02-22 11:15:37 INFO  PDFEngine.getData:195 - BDG000233 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LAUTAN JAYA MTR.pdf :  : 012023
+2023-02-22 11:15:37 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:15:38 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:15:38 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:15:38 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:38 INFO  PDFEngine.generateFile:291 - BDG000354 012023
+2023-02-22 11:15:39 INFO  PDFEngine.getData:195 - BDG000354 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SANGGAR MTR.pdf :  : 012023
+2023-02-22 11:15:39 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:15:39 INFO  PDFEngine.getData:230 - no data
+2023-02-22 11:15:39 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-22 11:15:40 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:40 INFO  PDFEngine.generateFile:291 - BDG000563 012023
+2023-02-22 11:15:40 INFO  PDFEngine.getData:195 - BDG000563 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SUGIH JAYA MTR.pdf :  : 012023
+2023-02-22 11:15:40 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:15:41 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:41 INFO  PDFEngine.generateFile:291 - BDG000567 012023
+2023-02-22 11:15:41 INFO  PDFEngine.getData:195 - BDG000567 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CICADAS MOTOR.pdf :  : 012023
+2023-02-22 11:15:41 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:15:42 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:42 INFO  PDFEngine.generateFile:291 - BDG000615 012023
+2023-02-22 11:15:42 INFO  PDFEngine.getData:195 - BDG000615 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/RI - RIZ MTR.pdf :  : 012023
+2023-02-22 11:15:42 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:15:43 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:43 INFO  PDFEngine.generateFile:291 - BDG000631 012023
+2023-02-22 11:15:43 INFO  PDFEngine.getData:195 - BDG000631 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/TASIK MOTOR.pdf :  : 012023
+2023-02-22 11:15:43 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:15:44 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:44 INFO  PDFEngine.generateFile:291 - BDG000646 012023
+2023-02-22 11:15:44 INFO  PDFEngine.getData:195 - BDG000646 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LION RACING MTR.pdf :  : 012023
+2023-02-22 11:15:44 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:15:45 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:45 INFO  PDFEngine.generateFile:291 - TSK000984 012023
+2023-02-22 11:15:45 INFO  PDFEngine.getData:195 - TSK000984 : 2023-02-22 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ESR MOTOR.pdf :  : 012023
+2023-02-22 11:15:46 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-22 11:15:46 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-22 11:15:46 INFO  PDFEngine.generateFile:291 - TSK000987 012023

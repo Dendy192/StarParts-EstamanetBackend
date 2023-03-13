@@ -1,0 +1,20 @@
+******************* START PROGRAM ******************
+2023-01-06 00:37:50 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-01-06 00:37:50 INFO  Database.configure:18 - configure DB [OK]
+2023-01-06 00:37:50 INFO  SQLData.getCommonParam:347 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-01-06 00:37:50 INFO  SQLData.getParameter:355 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-01-06 00:37:51 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-01-06 00:37:51 INFO  Param.configure:29 - [OK]
+> Start date	: 5
+> Finish date	: 29
+> Start time	: 01:26
+> Finish time	: 01:27
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+***************** SCHEDULER: Running ***************
+2023-01-06 00:37:51 INFO  SchedulerBuilder.<init>:22 - [OK]
+> Class 	: id.git.service.JobMontly
+> Start 	: 01:26
+> Finish	: 01:27
+> Group 	: groupMonthly

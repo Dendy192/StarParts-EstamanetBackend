@@ -1,0 +1,412 @@
+******************* START PROGRAM ******************
+2023-02-21 10:59:19 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-21 10:59:19 INFO  Database.configure:18 - configure DB [OK]
+2023-02-21 10:59:19 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-21 10:59:19 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-21 10:59:22 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-21 10:59:22 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-21 10:59:22 INFO  Main.main:22 - test
+2023-02-21 10:59:32 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-21 10:59:32 INFO  PDFEngine.engine:61 - PERIOD: 012023
+2023-02-21 10:59:36 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:36 INFO  PDFEngine.getData:214 - BDG000024 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:36 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:36 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:36 INFO  PDFEngine.getData:214 - BDG000233 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:37 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:37 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:37 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:37 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:37 INFO  PDFEngine.getData:214 - BDG000354 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:37 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:37 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:37 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:38 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:38 INFO  PDFEngine.getData:214 - BDG000563 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:38 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:39 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:39 INFO  PDFEngine.getData:214 - BDG000567 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:39 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:40 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:40 INFO  PDFEngine.getData:214 - BDG000615 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:40 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:40 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:41 INFO  PDFEngine.getData:214 - BDG000631 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:41 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:41 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:41 INFO  PDFEngine.getData:214 - BDG000646 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:42 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:42 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:42 INFO  PDFEngine.getData:214 - TSK000984 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:43 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:43 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:43 INFO  PDFEngine.getData:214 - TSK000987 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:43 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:43 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:43 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:47 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:47 INFO  PDFEngine.getData:214 - TSK000995 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:47 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:47 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:47 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:47 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:47 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:48 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:48 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:48 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:48 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:48 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:48 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:48 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:49 INFO  PDFEngine.getData:214 - TSK001017 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:49 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:49 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:49 INFO  PDFEngine.getData:214 - TSK001040 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:50 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:50 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:50 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:50 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:50 INFO  PDFEngine.getData:214 - TSK001094 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:51 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:51 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:51 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:51 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:51 INFO  PDFEngine.getData:214 - TSK001099 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:51 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:52 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:52 INFO  PDFEngine.getData:214 - TSK001107 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:52 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:52 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:52 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:54 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:54 INFO  PDFEngine.getData:214 - TSK001113 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:54 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:55 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:55 INFO  PDFEngine.getData:214 - TSK001120 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:55 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:55 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:55 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:56 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:56 INFO  PDFEngine.getData:214 - TSK001126 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:56 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:56 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:56 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:56 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:56 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:56 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:57 INFO  PDFEngine.getData:214 - SMD000075 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:57 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:57 INFO  PDFEngine.getData:230 - no data
+2023-02-21 10:59:57 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 10:59:57 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:57 INFO  PDFEngine.getData:214 - SMD000083 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:58 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:58 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:58 INFO  PDFEngine.getData:214 - TSK001134 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:59 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 10:59:59 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 10:59:59 INFO  PDFEngine.getData:214 - SMD000085 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 10:59:59 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:00 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:00 INFO  PDFEngine.getData:214 - TSK001136 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:00 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:01 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:01 INFO  PDFEngine.getData:214 - SMD000109 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:01 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:01 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:00:01 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:00:02 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:02 INFO  PDFEngine.getData:214 - SMD000125 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:02 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:03 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:03 INFO  PDFEngine.getData:214 - TSK001154 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:03 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:03 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:00:03 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:00:03 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:00:03 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:00:03 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:00:03 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:00:04 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:04 INFO  PDFEngine.getData:214 - SMD000332 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:04 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:05 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:05 INFO  PDFEngine.getData:214 - SMD000355 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:05 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:06 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:06 INFO  PDFEngine.getData:214 - SMD000359 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:06 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:07 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:08 INFO  PDFEngine.getData:214 - SMD000362 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:08 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:08 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:00:08 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:00:10 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:10 INFO  PDFEngine.getData:214 - SMD000373 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:10 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:10 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:10 INFO  PDFEngine.getData:214 - SMD000384 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:11 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:11 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:11 INFO  PDFEngine.getData:214 - SMD000416 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:11 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:12 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:12 INFO  PDFEngine.getData:214 - SMD000425 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:12 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:12 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:00:12 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:00:13 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:13 INFO  PDFEngine.getData:214 - SMD000434 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:13 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:13 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:00:13 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:00:14 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:14 INFO  PDFEngine.getData:214 - SKB000089 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:14 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:15 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:15 INFO  PDFEngine.getData:214 - TSK000037 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:15 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:15 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:16 INFO  PDFEngine.getData:214 - SKB000090 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:16 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:16 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:16 INFO  PDFEngine.getData:214 - TSK000039 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:16 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:18 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:18 INFO  PDFEngine.getData:214 - SKB000100 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:18 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:19 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:19 INFO  PDFEngine.getData:214 - TSK000069 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:19 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:21 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:21 INFO  PDFEngine.getData:214 - SKB000118 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:21 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:21 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:21 INFO  PDFEngine.getData:214 - TSK000101 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:22 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:23 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:23 INFO  PDFEngine.getData:214 - SKB000157 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:23 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:26 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:26 INFO  PDFEngine.getData:214 - TSK000107 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:26 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:26 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:27 INFO  PDFEngine.getData:214 - SKB000161 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:27 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:28 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:28 INFO  PDFEngine.getData:214 - TSK000110 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:28 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:28 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:00:28 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:00:32 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:32 INFO  PDFEngine.getData:214 - TSK000114 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:32 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:33 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+2023-02-21 11:00:33 INFO  PDFEngine.getData:214 - SKB000170 : 2023-02-21 : N : Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png. :  :  : 012023
+2023-02-21 11:00:33 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:00:33 INFO  PDFEngine.generateFile:297 - Byte data not found at: vecteezy_sample-stamp-in-rubber-style-red-round-grunge-sample-sign_6091020.png.
+******************* START PROGRAM ******************
+2023-02-21 11:02:47 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-21 11:02:47 INFO  Database.configure:18 - configure DB [OK]
+2023-02-21 11:02:47 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-21 11:02:47 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-21 11:02:49 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-21 11:02:49 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-21 11:02:49 INFO  Main.main:22 - test
+2023-02-21 11:02:50 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-21 11:02:50 INFO  PDFEngine.engine:61 - PERIOD: 012023
+2023-02-21 11:02:55 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:02:55 INFO  PDFEngine.generateFile:291 - BDG000024 012023
+2023-02-21 11:02:55 INFO  PDFEngine.getData:195 - BDG000024 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ALEX SPORT RACING.pdf :  : 012023
+2023-02-21 11:02:55 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:02:56 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:02:56 INFO  PDFEngine.generateFile:291 - BDG000233 012023
+2023-02-21 11:02:57 INFO  PDFEngine.getData:195 - BDG000233 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LAUTAN JAYA MTR.pdf :  : 012023
+2023-02-21 11:02:57 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:02:57 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:02:57 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:02:58 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:02:58 INFO  PDFEngine.generateFile:291 - BDG000354 012023
+2023-02-21 11:02:58 INFO  PDFEngine.getData:195 - BDG000354 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SANGGAR MTR.pdf :  : 012023
+2023-02-21 11:02:59 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:02:59 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:02:59 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:02:59 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:02:59 INFO  PDFEngine.generateFile:291 - BDG000563 012023
+2023-02-21 11:03:00 INFO  PDFEngine.getData:195 - BDG000563 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SUGIH JAYA MTR.pdf :  : 012023
+2023-02-21 11:03:00 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:03:00 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:03:00 INFO  PDFEngine.generateFile:291 - BDG000567 012023
+2023-02-21 11:03:01 INFO  PDFEngine.getData:195 - BDG000567 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CICADAS MOTOR.pdf :  : 012023
+2023-02-21 11:03:01 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:03:01 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:03:01 INFO  PDFEngine.generateFile:291 - BDG000615 012023
+2023-02-21 11:03:02 INFO  PDFEngine.getData:195 - BDG000615 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/RI - RIZ MTR.pdf :  : 012023
+2023-02-21 11:03:02 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:03:03 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:03:03 INFO  PDFEngine.generateFile:291 - BDG000631 012023
+2023-02-21 11:03:03 INFO  PDFEngine.getData:195 - BDG000631 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/TASIK MOTOR.pdf :  : 012023
+2023-02-21 11:03:03 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:03:04 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:03:04 INFO  PDFEngine.generateFile:291 - BDG000646 012023
+2023-02-21 11:03:04 INFO  PDFEngine.getData:195 - BDG000646 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LION RACING MTR.pdf :  : 012023
+2023-02-21 11:03:05 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:03:05 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:03:05 INFO  PDFEngine.generateFile:291 - TSK000984 012023
+2023-02-21 11:03:06 INFO  PDFEngine.getData:195 - TSK000984 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ESR MOTOR.pdf :  : 012023
+2023-02-21 11:03:06 INFO  PDFEngine.call:158 - dari call: kelar
+******************* START PROGRAM ******************
+2023-02-21 11:07:12 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-02-21 11:07:12 INFO  Database.configure:18 - configure DB [OK]
+2023-02-21 11:07:12 INFO  SQLData.getCommonParam:496 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-21 11:07:12 INFO  SQLData.getParameter:504 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-02-21 11:07:14 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-02-21 11:07:14 INFO  Param.configure:29 - [OK]
+> Start date	: 20
+> Finish date	: 28
+> Start time	: 09:00
+> Finish time	: 17:00
+> Pdf path	: E:\KERJABLOK\newEstatement\
+> Pdf source	: pdf/StartPart.jasper
+2023-02-21 11:07:14 INFO  Main.main:22 - test
+2023-02-21 11:07:21 INFO  PDFEngine.engine:59 - GENERATE START
+2023-02-21 11:07:21 INFO  PDFEngine.engine:61 - PERIOD: 012023
+2023-02-21 11:07:25 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:26 INFO  PDFEngine.generateFile:291 - BDG000024 012023
+2023-02-21 11:07:26 INFO  PDFEngine.getData:195 - BDG000024 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ALEX SPORT RACING.pdf :  : 012023
+2023-02-21 11:07:26 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:27 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:27 INFO  PDFEngine.generateFile:291 - BDG000233 012023
+2023-02-21 11:07:27 INFO  PDFEngine.getData:195 - BDG000233 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LAUTAN JAYA MTR.pdf :  : 012023
+2023-02-21 11:07:27 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:28 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:28 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:28 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:28 INFO  PDFEngine.generateFile:291 - BDG000354 012023
+2023-02-21 11:07:29 INFO  PDFEngine.getData:195 - BDG000354 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SANGGAR MTR.pdf :  : 012023
+2023-02-21 11:07:29 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:29 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:29 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:30 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:30 INFO  PDFEngine.generateFile:291 - BDG000563 012023
+2023-02-21 11:07:30 INFO  PDFEngine.getData:195 - BDG000563 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SUGIH JAYA MTR.pdf :  : 012023
+2023-02-21 11:07:31 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:31 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:31 INFO  PDFEngine.generateFile:291 - BDG000567 012023
+2023-02-21 11:07:32 INFO  PDFEngine.getData:195 - BDG000567 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CICADAS MOTOR.pdf :  : 012023
+2023-02-21 11:07:32 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:33 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:33 INFO  PDFEngine.generateFile:291 - BDG000615 012023
+2023-02-21 11:07:33 INFO  PDFEngine.getData:195 - BDG000615 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/RI - RIZ MTR.pdf :  : 012023
+2023-02-21 11:07:34 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:34 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:34 INFO  PDFEngine.generateFile:291 - BDG000631 012023
+2023-02-21 11:07:35 INFO  PDFEngine.getData:195 - BDG000631 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/TASIK MOTOR.pdf :  : 012023
+2023-02-21 11:07:35 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:35 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:35 INFO  PDFEngine.generateFile:291 - BDG000646 012023
+2023-02-21 11:07:36 INFO  PDFEngine.getData:195 - BDG000646 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/LION RACING MTR.pdf :  : 012023
+2023-02-21 11:07:36 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:37 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:37 INFO  PDFEngine.generateFile:291 - TSK000984 012023
+2023-02-21 11:07:37 INFO  PDFEngine.getData:195 - TSK000984 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/ESR MOTOR.pdf :  : 012023
+2023-02-21 11:07:37 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:38 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:38 INFO  PDFEngine.generateFile:291 - TSK000987 012023
+2023-02-21 11:07:38 INFO  PDFEngine.getData:195 - TSK000987 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SUKMA MOTOR.pdf :  : 012023
+2023-02-21 11:07:38 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:38 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:38 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:39 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:39 INFO  PDFEngine.generateFile:291 - TSK000995 012023
+2023-02-21 11:07:39 INFO  PDFEngine.getData:195 - TSK000995 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CV. SA.HIDAYAH.pdf :  : 012023
+2023-02-21 11:07:39 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:40 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:40 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:40 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:40 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:40 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:40 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:40 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:40 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:40 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:40 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:41 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:41 INFO  PDFEngine.generateFile:291 - TSK001017 012023
+2023-02-21 11:07:41 INFO  PDFEngine.getData:195 - TSK001017 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CV.TRI BINTANG SINAR INDO-TYR.pdf :  : 012023
+2023-02-21 11:07:41 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:42 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:42 INFO  PDFEngine.generateFile:291 - TSK001040 012023
+2023-02-21 11:07:42 INFO  PDFEngine.getData:195 - TSK001040 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/CITEGUH MOTOR-TYR.pdf :  : 012023
+2023-02-21 11:07:42 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:42 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:42 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:43 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:43 INFO  PDFEngine.generateFile:291 - TSK001094 012023
+2023-02-21 11:07:43 INFO  PDFEngine.getData:195 - TSK001094 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SENTOSA MOTOR.pdf :  : 012023
+2023-02-21 11:07:43 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:43 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:43 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:44 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:44 INFO  PDFEngine.generateFile:291 - TSK001099 012023
+2023-02-21 11:07:44 INFO  PDFEngine.getData:195 - TSK001099 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/BERKAH JAYA VARIASI-TYR.pdf :  : 012023
+2023-02-21 11:07:44 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:45 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:45 INFO  PDFEngine.generateFile:291 - TSK001107 012023
+2023-02-21 11:07:45 INFO  PDFEngine.getData:195 - TSK001107 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/SINAR JAYA BATERY-TYR.pdf :  : 012023
+2023-02-21 11:07:46 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:46 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:46 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:46 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:46 INFO  PDFEngine.generateFile:291 - TSK001113 012023
+2023-02-21 11:07:46 INFO  PDFEngine.getData:195 - TSK001113 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/TRIJAYA MOTOR.pdf :  : 012023
+2023-02-21 11:07:46 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:47 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:47 INFO  PDFEngine.generateFile:291 - TSK001120 012023
+2023-02-21 11:07:47 INFO  PDFEngine.getData:195 - TSK001120 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/GINANSA VARIASI-TYR.pdf :  : 012023
+2023-02-21 11:07:47 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:48 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:48 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:48 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:48 INFO  PDFEngine.generateFile:291 - TSK001126 012023
+2023-02-21 11:07:49 INFO  PDFEngine.getData:195 - TSK001126 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/DHITA MOTOR-TYR.pdf :  : 012023
+2023-02-21 11:07:49 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:49 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:49 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:49 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:49 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:50 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:50 INFO  PDFEngine.generateFile:291 - SMD000075 012023
+2023-02-21 11:07:50 INFO  PDFEngine.getData:195 - SMD000075 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/GAN COMOT RACING.pdf :  : 012023
+2023-02-21 11:07:50 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:50 INFO  PDFEngine.getData:230 - no data
+2023-02-21 11:07:50 INFO  PDFEngine.call:158 - dari call: no data
+2023-02-21 11:07:51 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:51 INFO  PDFEngine.generateFile:291 - SMD000083 012023
+2023-02-21 11:07:51 INFO  PDFEngine.getData:195 - SMD000083 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/BR MOTOR.pdf :  : 012023
+2023-02-21 11:07:51 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:53 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:53 INFO  PDFEngine.generateFile:291 - TSK001134 012023
+2023-02-21 11:07:53 INFO  PDFEngine.getData:195 - TSK001134 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/RC MOTOR.pdf :  : 012023
+2023-02-21 11:07:54 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:54 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:54 INFO  PDFEngine.generateFile:291 - SMD000085 012023
+2023-02-21 11:07:55 INFO  PDFEngine.getData:195 - SMD000085 : 2023-02-21 : R : Ready to Send : E:\KERJABLOK\newEstatement\012023/RIZKY MTR.pdf :  : 012023
+2023-02-21 11:07:55 INFO  PDFEngine.call:158 - dari call: kelar
+2023-02-21 11:07:55 ERROR PDFEngine.generateFile:283 - coba di sini dah
+2023-02-21 11:07:55 INFO  PDFEngine.generateFile:291 - TSK001136 012023

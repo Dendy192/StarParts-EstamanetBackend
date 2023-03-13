@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.19.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="StartPart" language="groovy" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isIgnorePagination="true" uuid="4055cc95-a271-4e1c-8e6c-b5e1f939d1be">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="StarParts"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="tableParam1" class="java.lang.String"/>
+	<parameter name="foot1" class="java.lang.String"/>
+	<parameter name="foot2" class="java.lang.String">
+		<defaultValueExpression><![CDATA["<p>Mohon kesediaan Bapak/Ibu untuk dapat mengirim balik surat ini melalui nomor whatsapp:</p><ul><li>0811 2460 112Manager FAD (Ibu Ceniawati)</li></ul>"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="foot3" class="java.lang.String">
+		<defaultValueExpression><![CDATA["<p>Adapun untuk kritik dan saran dapat menghubungi kami&nbsp;melalui nomor whatsapp atau e-mail:</p><ul><li>Customer Care : 0811 2077 888</li><li>Email Finance&nbsp; : finance.starpartsmotor@gmail.com&nbsp;</li></ul>"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="idInvoice" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT "TTD_FAD_MGR",
+	"OUTLET_NAME"
+FROM "SP_STG_INVOICE"   WHERE "OUTLET_NAME" =  $P{tableParam1}]]>
+	</queryString>
+	<field name="TTD_FAD_MGR" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="TTD_FAD_MGR"/>
+		<property name="com.jaspersoft.studio.field.label" value="TTD_FAD_MGR"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="sample_data"/>
+	</field>
+	<field name="OUTLET_NAME" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="OUTLET_NAME"/>
+		<property name="com.jaspersoft.studio.field.label" value="OUTLET_NAME"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="sample_data"/>
+	</field>
+	<variable name="test" class="java.math.BigDecimal"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="50" splitType="Stretch">
+			<image vAlign="Middle">
+				<reportElement x="0" y="0" width="190" height="50" uuid="bc056c1d-7e37-4b4d-8451-5169102f5366"/>
+				<imageExpression><![CDATA["pdf/logo.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="148" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="4" width="559" height="30" uuid="ca4270bd-26b8-417a-812e-9d9a309e0c4c"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="false" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[KONFIRMASI FAKTUR/HUTANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="72" width="206" height="30" uuid="ffd8b363-17a3-4264-aa13-52c8d0d3abfa"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Kepada  Yth, 
+Bapak / Ibu pemilik]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="122" width="206" height="23" uuid="40f29377-1713-4a68-9f40-5377192fe945"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[di Tempat]]></text>
+			</staticText>
+			<textField pattern="MMMM d, yyyy">
+				<reportElement x="455" y="20" width="100" height="30" uuid="ab549337-9c19-4c02-8c18-b802b59b68df"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="102" width="206" height="20" uuid="f989ba1c-0141-4cef-89e0-1224e38db96b"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{OUTLET_NAME}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="102" width="30" height="20" uuid="5f6ed1c2-7fb2-465b-b00c-bd369bb08f70"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Toko:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="34" width="56" height="20" uuid="e6b9c3ae-efd7-47a1-bc52-53340e5d0161"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[No. Surat :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="237" y="34" width="181" height="20" uuid="0425febd-1d50-466a-a871-74354d096b52"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{idInvoice}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="105" splitType="Stretch">
+			<printWhenExpression><![CDATA[($V{REPORT_COUNT}.intValue()==1)]]></printWhenExpression>
+			<staticText>
+				<reportElement x="0" y="45" width="560" height="56" uuid="9ee74ec5-bcde-4a76-bbe9-d3637e1b7c6a"/>
+				<textElement textAlignment="Justified">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Dengan hormat,
+Berdasarkan prosedur PT. Star Parts Motor, menginformasikan kepada seluruh rekan kerja untuk melakukan konfimasi atas hutang maupun piutang bpk/ibu, dengan memeriksa kebenaran yang terdapat di daftar hutang serta piutang PT. Start Parts Motor.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="13" width="226" height="20" uuid="f7d9a8bb-1246-4347-9f02-2f5012c228ab"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Perihal: Konfirmasi Hutang/Piutang]]></text>
+			</staticText>
+		</band>
+		<band height="107">
+			<printWhenExpression><![CDATA[($V{REPORT_COUNT}.intValue()==1)]]></printWhenExpression>
+			<subreport>
+				<reportElement x="0" y="46" width="537" height="60" uuid="67ce4839-9bce-4344-b1e8-a5773200216e"/>
+				<subreportParameter name="tableParam1">
+					<subreportParameterExpression><![CDATA[$P{tableParam1}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<returnValue subreportVariable="return" toVariable="test" calculation="Sum"/>
+				<subreportExpression><![CDATA["pdf/aBlank_A4.jasper"]]></subreportExpression>
+			</subreport>
+			<staticText>
+				<reportElement x="0" y="-3" width="119" height="19" uuid="7ef22695-1539-4a69-8221-eb4f45b67eeb"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Terlampir data faktur toko ]]></text>
+			</staticText>
+			<textField pattern="d MMM yyyy">
+				<reportElement x="0" y="17" width="70" height="19" uuid="6df75361-49c3-4ee2-a276-e6fbad87e874"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="61" y="17" width="80" height="19" uuid="70bb02b5-f14f-43a6-86df-19928510739d"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[dengan total RP]]></text>
+			</staticText>
+			<textField evaluationTime="Band" pattern="###,###,###">
+				<reportElement x="141" y="17" width="69" height="19" uuid="1d706137-9dbc-497e-ab8c-ec0e67f9f319"/>
+				<textElement verticalAlignment="Middle" markup="none">
+					<font size="10" isBold="true" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{test}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="117" y="-3" width="100" height="19" uuid="d59798c3-06ab-4efd-897f-a96b1904726f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{OUTLET_NAME}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="215" y="-4" width="325" height="20" uuid="17638814-3684-42f3-9ba2-9cd696fadbae"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<text><![CDATA[yang masih gantung di PT. Star Parts Motor sampai dengan tanggal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="211" y="17" width="100" height="18" uuid="9ee333d0-147e-47f7-bb52-1857e782ad52"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[sebagai berikut:]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<summary>
+		<band height="384" splitType="Stretch">
+			<staticText>
+				<reportElement x="12" y="236" width="260" height="40" uuid="5b8f8fd6-71d4-441e-a3f7-9ae86a3343e4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[PT. STAR PARTS MOTOR]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="30" width="270" height="70" uuid="9f16bff8-d6ea-4c35-b430-e1d48133c8a2"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<paragraph firstLineIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{foot1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="100" width="544" height="40" uuid="744c2d93-d78c-4b46-bdf7-5dca22fa4743"/>
+				<textElement verticalAlignment="Middle" markup="html"/>
+				<textFieldExpression><![CDATA[$P{foot2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="150" width="544" height="40" uuid="d903ba87-a9d5-4ef6-9599-9793dc55df0c"/>
+				<textElement verticalAlignment="Middle" markup="html"/>
+				<textFieldExpression><![CDATA[$P{foot3}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="200" width="475" height="30" uuid="b79f1540-1dc6-4fef-bc58-fd87d696a894"/>
+				<text><![CDATA[Demikian surat ini kami sampaikan, atas perhatian dan kerjasamanya kami ucapkan terima kasih.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="10" width="180" height="20" uuid="ae15102c-8d6d-4f4f-b175-fad3a9bd3e17"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[No rekening PT. Star Parts Motor]]></text>
+			</staticText>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="60" y="280" width="175" height="80" uuid="a730b24a-7f0b-4d69-b563-2b290d65d79e"/>
+				<imageExpression><![CDATA["pdf/STEMPEL SPM.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</summary>
+</jasperReport>
