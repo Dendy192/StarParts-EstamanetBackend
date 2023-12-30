@@ -42,6 +42,7 @@ public class PDFEngine {
 	List<String> total = new ArrayList<String>();
 	List<String> failed = new ArrayList<String>();
 	List<String> succes = new ArrayList<String>();
+	HashMap<String, Integer> duplicate = new HashMap<>();
 
 	private static Logger log = Logger.getLogger(PDFEngine.class.getName());
 	public void engine() {
@@ -62,7 +63,7 @@ public class PDFEngine {
 		for (String n : no) {
 			String[] outlet = outletName.get(n);
 			// System.out.println(n);
-			// System.out.println(outlet[1]);
+			 System.out.println(outlet[1]);
 			HashMap<String, Object[]> getInvoice = gap.getInvoice(outlet[0]);
 			Set<String> noIn = getInvoice.keySet();
 			for (String nIn : noIn) {
@@ -92,7 +93,7 @@ public class PDFEngine {
 					// log.info(" : " + tes9 + " : " + tes10 + " : " + tes11
 					// + " : " + tes12 + " : " + tes13 + " : "
 					// + Function.getPeriod());
-					if (SQLData.checkInvoice(tes1, tes5) == false) {
+					if (SQLData.checkInvoice(tes1, period) == false) {
 						if (SQLData.checkSTGInvoice(tes1, tes5) == false) {
 							SQLData.insertSTGInvoice(tes1, tes2, tes3, tes4,
 									tes5, tes6, tes7, tes8, tes9, tes10, tes11,
@@ -134,6 +135,7 @@ public class PDFEngine {
 			int su = succes.size();
 			int fa = failed.size();
 			SQLData.InsertLogSCH(sDate, fDate, to, su, fa, "PDF");
+			Function.printStatus("END PROGRAM");
 			executor.shutdown();
 		} catch (InterruptedException | ExecutionException e) {
 			// TODO Auto-generated catch block
@@ -169,9 +171,9 @@ public class PDFEngine {
 
 			String sourcePDF = Param.getPdfSource();
 			String pathReport = "";
-			if (name1.contains("/")) {
-				name1 = name1.replace("/", "//");
-			}
+//			if (name1.contains("/")) {
+//				name1 = name1.replace("/", "//");
+//			}
 			String query = "SELECT DISTINCT \"OUTLET_NAME\",\"OUTLET_ID\" ,\"INVOICE_DATE\", \"INVOICE_DUE\", "
 					+ "\"BRAND\", \"INVOICE_NO\", \"AMOUNT\", \"REMAINING_AMOUNT\", \"TTD_FAD_MGR\" "
 					+ "FROM \"SP_STG_INVOICE\" WHERE \"OUTLET_NAME\" = ?";
@@ -200,10 +202,11 @@ public class PDFEngine {
 						// Send"+" "+ result1[1]+" "+ resultConvert[1]+" "+
 						// period);
 						SQLData.updateLog(id, date1, "R", "Ready to Send",
-								result1[1], "", period, result1[2]);
+								result1[1],  period, result1[2]);
 					} else {
-						SQLData.inputLOG(id, date1, "R", "Ready to Send",
-								result1[1], "", period, result1[2]);
+						String res = SQLData.inputLOG(id, date1, "R", "Ready to Send",
+								result1[1], period, result1[2]);
+						System.out.println(res);
 
 					}
 
@@ -215,10 +218,10 @@ public class PDFEngine {
 							+ result1[0] + " : " + "" + " : " + "" + " : "
 							+ period);
 					if (check == true) {
-						SQLData.updateLog(id, date1, "N", result1[0], "", "",
+						SQLData.updateLog(id, date1, "N", result1[0],  "",
 								period, "");
 					} else {
-						SQLData.inputLOG(id, date1, "N", result1[0], "", "",
+						SQLData.inputLOG(id, date1, "N", result1[0],  "",
 								period, "");
 					}
 				}
@@ -254,9 +257,30 @@ public class PDFEngine {
 		String foot2 = contentPDF.get(1);
 		String foot3 = contentPDF.get(2);
 		try {
+			String name = name1;
+			if (name1.contains("/")) {
+				name = name1.replace("/", "-");
+			}
 			System.out.println("masuk if di get data");
 			File dir = new File(Param.getPdfPath() + period);
 			dir.mkdir();
+			pathReport = Param.getPdfPath() + period + "/";
+			log.info("path report: "+pathReport);
+			path = pathReport + name + ".pdf";
+			
+			if(SQLData.checkOutletFile(path, period)) {
+//				duplicate.get(name1)
+				int no = 1;
+				if(duplicate.containsKey(name1)) {
+					no = duplicate.get(name1) +1;
+					duplicate.put(name1, no);
+				}else {
+					duplicate.put(name1, no);
+				}
+				path = pathReport + name+" "+no+".pdf";
+				
+			}
+			log.info("path file: "+path);
 			conn2 = DBEngine.getConnection();
 			Map<String, Object> parameters = new HashMap<String, Object>();
 			parameters.put("tableParam1", name1);
@@ -267,20 +291,18 @@ public class PDFEngine {
 			JRPdfExporter exporter = new JRPdfExporter();
 			InputStream is = new FileInputStream(new File(sourcePDF));
 			jasperReport = (JasperReport) JRLoader.loadObject(is);
-			System.out.println("connection");
+			log.info("Masuk mau ngeprint jaspernya");
 			JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport,
 					parameters, conn2);
-			System.out.println("fill report");
+			log.info("Masuk mau fill jaspernya");
 			exporter.setParameter(JRExporterParameter.JASPER_PRINT,
 					jasperPrint);
 			ByteArrayOutputStream byteOS = new ByteArrayOutputStream();
 			exporter.setParameter(JRExporterParameter.OUTPUT_STREAM, byteOS);
-			pathReport = Param.getPdfPath() + period + "/";
-			path = pathReport + name1 + ".pdf";
 			// System.out.println("view");
 			// JasperViewer.viewReport(jasperPrint);
 			exporter.exportReport();
-			log.error("coba di sini dah");
+//			log.error("coba di sini dah");
 			FileOutputStream outputStream = new FileOutputStream(
 					new File(path));
 			byteOS.writeTo(outputStream);
@@ -291,10 +313,11 @@ public class PDFEngine {
 			log.info(id + " " + period);
 			SQLData.recordInvoice(id, period);
 			SQLData.deleteSTG(id, period);
+			conn2.close();
 			result = "success";
 		} catch (Exception e) {
 			// TODO: handle exception
-			log.info(e.getMessage());
+			log.error(e.getMessage());
 			result = e.getMessage();
 		}
 		String[] result1 = {result, path, idInvoice};
