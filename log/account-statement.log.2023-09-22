@@ -1,0 +1,126 @@
+******************* START PROGRAM ******************
+2023-09-22 17:24:49 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-09-22 17:24:49 INFO  Database.configure:18 - configure DB [OK]
+2023-09-22 17:24:49 INFO  SQLData.getCommonParam:578 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:24:49 INFO  SQLData.getParameter:586 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:24:50 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-09-22 17:24:50 INFO  Param.configure:29 - [OK]
+> Start date	: 01
+> Finish date	: 05
+> Start time	: 06:00
+> Finish time	: 17:00
+> Pdf path	: D:/KERJABLOK/StarParts/
+> Pdf source	: pdf/StartPart.jasper
+******************* START PROGRAM ******************
+2023-09-22 17:26:36 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-09-22 17:26:36 INFO  Database.configure:18 - configure DB [OK]
+2023-09-22 17:26:36 INFO  SQLData.getCommonParam:578 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:26:36 INFO  SQLData.getParameter:586 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:26:36 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-09-22 17:26:36 INFO  Param.configure:29 - [OK]
+> Start date	: 01
+> Finish date	: 05
+> Start time	: 06:00
+> Finish time	: 17:00
+> Pdf path	: D:/KERJABLOK/StarParts/
+> Pdf source	: pdf/StartPart.jasper
+******************* START PROGRAM ******************
+2023-09-22 17:28:42 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-09-22 17:28:42 INFO  Database.configure:18 - configure DB [OK]
+2023-09-22 17:28:42 INFO  SQLData.getCommonParam:578 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:28:42 INFO  SQLData.getParameter:586 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:28:43 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-09-22 17:28:43 INFO  Param.configure:29 - [OK]
+> Start date	: 01
+> Finish date	: 05
+> Start time	: 06:00
+> Finish time	: 17:00
+> Pdf path	: D:/KERJABLOK/StarParts/
+> Pdf source	: pdf/StartPart.jasper
+******************* START PROGRAM ******************
+2023-09-22 17:31:18 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-09-22 17:31:18 INFO  Database.configure:18 - configure DB [OK]
+2023-09-22 17:31:18 INFO  SQLData.getCommonParam:578 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:31:18 INFO  SQLData.getParameter:586 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:31:19 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-09-22 17:31:19 INFO  Param.configure:29 - [OK]
+> Start date	: 01
+> Finish date	: 05
+> Start time	: 06:00
+> Finish time	: 17:00
+> Pdf path	: D:/KERJABLOK/StarParts/
+> Pdf source	: pdf/StartPart.jasper
+******************* START PROGRAM ******************
+2023-09-22 17:32:03 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-09-22 17:32:03 INFO  Database.configure:18 - configure DB [OK]
+2023-09-22 17:32:03 INFO  SQLData.getCommonParam:578 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:32:03 INFO  SQLData.getParameter:586 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:32:04 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-09-22 17:32:04 INFO  Param.configure:29 - [OK]
+> Start date	: 01
+> Finish date	: 05
+> Start time	: 06:00
+> Finish time	: 17:00
+> Pdf path	: D:/KERJABLOK/StarParts/
+> Pdf source	: pdf/StartPart.jasper
+******************* START PROGRAM ******************
+2023-09-22 17:32:46 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-09-22 17:32:46 INFO  Database.configure:18 - configure DB [OK]
+2023-09-22 17:32:46 INFO  SQLData.getCommonParam:578 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:32:46 INFO  SQLData.getParameter:586 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:32:47 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-09-22 17:32:47 INFO  Param.configure:29 - [OK]
+> Start date	: 01
+> Finish date	: 05
+> Start time	: 06:00
+> Finish time	: 17:00
+> Pdf path	: D:/KERJABLOK/StarParts/
+> Pdf source	: pdf/StartPart.jasper
+******************* START PROGRAM ******************
+2023-09-22 17:33:38 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-09-22 17:33:38 INFO  Database.configure:18 - configure DB [OK]
+2023-09-22 17:33:38 INFO  SQLData.getCommonParam:578 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:33:38 INFO  SQLData.getParameter:586 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:33:39 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-09-22 17:33:39 INFO  Param.configure:29 - [OK]
+> Start date	: 01
+> Finish date	: 05
+> Start time	: 06:00
+> Finish time	: 17:00
+> Pdf path	: D:/KERJABLOK/StarParts/
+> Pdf source	: pdf/StartPart.jasper
+******************* START PROGRAM ******************
+2023-09-22 17:34:16 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-09-22 17:34:16 INFO  Database.configure:18 - configure DB [OK]
+2023-09-22 17:34:16 INFO  SQLData.getCommonParam:578 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:34:16 INFO  SQLData.getParameter:586 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:34:17 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-09-22 17:34:17 INFO  Param.configure:29 - [OK]
+> Start date	: 01
+> Finish date	: 05
+> Start time	: 06:00
+> Finish time	: 17:00
+> Pdf path	: D:/KERJABLOK/StarParts/
+> Pdf source	: pdf/StartPart.jasper
+******************* START PROGRAM ******************
+2023-09-22 17:34:29 INFO  Config.init:19 - [OK]
+> File	: config.properties
+2023-09-22 17:34:29 INFO  Database.configure:18 - configure DB [OK]
+2023-09-22 17:34:29 INFO  SQLData.getCommonParam:578 - key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:34:29 INFO  SQLData.getParameter:586 - sql=select "parameter_Name", "parameter_Value" from "parameter" WHERE , field="parameter_Name", key=[START DATE][FINISH DATE][START TIME][FINISH TIME][pdf.path.report][pdf.source.file], isClob=false
+2023-09-22 17:34:30 INFO  DBEngine.execute:63 - [OK] 6 Rows and 2 Column
+2023-09-22 17:34:30 INFO  Param.configure:29 - [OK]
+> Start date	: 01
+> Finish date	: 05
+> Start time	: 06:00
+> Finish time	: 17:00
+> Pdf path	: D:/KERJABLOK/StarParts/
+> Pdf source	: pdf/StartPart.jasper

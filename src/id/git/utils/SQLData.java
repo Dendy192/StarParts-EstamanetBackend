@@ -16,7 +16,88 @@ import id.git.conn.DBEngine;
 
 public class SQLData {
 	private static Logger log = Logger.getLogger(SQLData.class.getName());
+//	String sql = "SELECT \"OUTLET_NAME\", \"OUTLET_PHONE\" FROM \"SP_OUTLET\" WHERE \"OUTLET_ID\" = '" + id + "'";
+	
+	public static boolean checkOutletFile(String path, String period) {
+		boolean result = false;
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		String sql = "SELECT * FROM \"SP_LOG\" WHERE \"LOG_PATH_PDF\" = ? AND \"LOG_PERIOD\" = ?";
+		try {
+			
+			System.out.println(sql);
+			conn = DBEngine.getConnection();
+			ps = conn.prepareStatement(sql);
+			ps.setString(1, path);
+			ps.setString(2, period);
+			rs = ps.executeQuery();
+			if (rs.next()) {
+				System.out.println("masuk true di check file");
+				result = true;
+			}
 
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		} finally {
+			try {
+				if (conn != null) {
+					conn.close();
+				}
+				if (ps != null) {
+					ps.close();
+				}
+				if (rs != null) {
+					rs.close();
+				}
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		return result;
+	}
+	
+	public static String getOutletID(String id) {
+		String result = "";
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		String sql = "SELECT \"OUTLET_ID\" FROM \"SP_OUTLET\" WHERE \"OUTLET_NAME\" = ?";
+		try {
+			conn = DBEngine.getConnection();
+			ps = conn.prepareStatement(sql);
+			ps.setString(1, id);
+			rs = ps.executeQuery();
+			if (rs.next()) {
+				result = rs.getString("OUTLET_ID");
+			}
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			System.out.println(e.getMessage());
+		} finally {
+			try {
+				if (conn != null) {
+					conn.close();
+				}
+				if (ps != null) {
+					ps.close();
+				}
+				if (rs != null) {
+					rs.close();
+				}
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+		return result;
+	}
+	
 	public static void InsertLogSCH(String start, String finish, int total,
 			int suc, int fail, String type) {
 		Connection conn = null;
@@ -131,13 +212,13 @@ public class SQLData {
 		}
 		return result;
 	}
-	public static boolean checkInvoice(String id, String invo) {
+	public static boolean checkInvoice(String id, String period) {
 		boolean result = false;
 		Connection conn = null;
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 		String sql = "SELECT * FROM \"SP_INVOICE\" sinv JOIN \"SP_LOG\" sL ON sinv.\"OUTLET_ID\" = sL.\"CUSTOMER_ID\" WHERE \"OUTLET_ID\" ='"
-				+ id + "' AND \"INVOICE_NO\" = '" + invo + "'";
+				+ id + "' AND \"LOG_PERIOD\" = '" + period + "'";
 		try {
 			System.out.println(sql);
 			conn = DBEngine.getConnection();
@@ -210,7 +291,7 @@ public class SQLData {
 		return result;
 	}
 	public static void updateLog(String id, String date, String status,
-			String message, String pdfPath, String pathImage, String period,
+			String message, String pdfPath, String period,
 			String invoice) {
 		Connection conn = null;
 		PreparedStatement ps = null;
@@ -221,7 +302,6 @@ public class SQLData {
 						+ "', \"LOG_STATUS\"='" + status
 						+ "', \"LOG_MESSAGE\"='" + message
 						+ "', \"LOG_PATH_PDF\"='" + pdfPath
-						+ "', \"LOG_PATH_IMAGE\"='" + pathImage
 						+ "' , \"LOG_INVOICE\" = '" + invoice + "'  "
 						+ " WHERE \"CUSTOMER_ID\"='" + id
 						+ "' AND \"LOG_PERIOD\" = '" + period + "'";
@@ -438,16 +518,17 @@ public class SQLData {
 		return result;
 	}
 
-	public static void inputLOG(String id, String date, String status,
-			String message, String pdfPath, String pathImage, String period,
+	public static String inputLOG(String id, String date, String status,
+			String message, String pdfPath, String period,
 			String invoice) {
 		Connection conn = null;
+		String result = "";
 		PreparedStatement ps = null;
 		String sql = "";
 		try {
 			conn = DBEngine.getConnection();
 			if (status.equals("R")) {
-				sql = "INSERT INTO \"SP_LOG\" (\"CUSTOMER_ID\", \"LOG_GENERATE_DATE\", \"LOG_STATUS\", \"LOG_MESSAGE\", \"LOG_PATH_PDF\", \"LOG_PATH_IMAGE\", \"LOG_PERIOD\", \"LOG_INVOICE\" ) VALUES(?, ?, ?, ?, ?, ?,?, ?)";
+				sql = "INSERT INTO \"SP_LOG\" (\"CUSTOMER_ID\", \"LOG_GENERATE_DATE\", \"LOG_STATUS\", \"LOG_MESSAGE\", \"LOG_PATH_PDF\", \"LOG_PERIOD\", \"LOG_INVOICE\" ) VALUES(?, ?, ?, ?, ?,?, ?)";
 				System.out.println(sql);
 				ps = conn.prepareStatement(sql);
 				ps.setString(1, id);
@@ -455,9 +536,8 @@ public class SQLData {
 				ps.setString(3, status);
 				ps.setString(4, message);
 				ps.setString(5, pdfPath);
-				ps.setString(6, pathImage);
-				ps.setString(7, period);
-				ps.setString(8, invoice);
+				ps.setString(6, period);
+				ps.setString(7, invoice);
 			} else if (status.equals("N")) {
 				sql = "INSERT INTO \"SP_LOG\" (\"CUSTOMER_ID\", \"LOG_GENERATE_DATE\", \"LOG_STATUS\", \"LOG_MESSAGE\", \"LOG_PERIOD\") VALUES(?, ?, ?, ?, ?)";
 				System.out.println(sql);
@@ -468,8 +548,9 @@ public class SQLData {
 				ps.setString(4, message);
 				ps.setString(5, period);
 			}
+			log.info("dari input "+sql);
 			int res = ps.executeUpdate();
-			String result = "";
+			
 			if (res > 0) {
 				result = "success";
 			}
@@ -489,6 +570,7 @@ public class SQLData {
 				e.printStackTrace();
 			}
 		}
+		return result;
 	}
 
 	public static Map<String, String[]> getCommonParam(String[] key,
